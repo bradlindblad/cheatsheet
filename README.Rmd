@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 
 # cheatsheet
 
+
 <!-- badges: start -->
 [![R build status](https://github.com/bradlindblad/cheatsheet/workflows/R-CMD-check/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions)
 [![Codecov test coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=master)
