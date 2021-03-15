@@ -8,7 +8,7 @@
 [![R build
 status](https://github.com/bradlindblad/cheatsheet/workflows/R-CMD-check/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=master)
+coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/cheatsheet)](https://CRAN.R-project.org/package=cheatsheet)
 [![Lifecycle:
