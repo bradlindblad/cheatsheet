@@ -10,8 +10,22 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Suggests: 
-    testthat
+    testthat,
+    covr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/bradlindblad/cheatsheetR
+BugReports: https://github.com/bradlindblad/cheatsheetR/issues
+Imports: 
+    magrittr,
+    httr,
+    rvest,
+    xml2,
+    git2r,
+    fs,
+    crayon,
+    cli,
+    glue,
+    purrr
