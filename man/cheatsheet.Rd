@@ -4,7 +4,7 @@
 \name{cheatsheet}
 \alias{cheatsheet}
 \alias{cheatsheet-package}
-\title{cheatsheet: Download All or Some of the R Cheatsheets.}
+\title{cheatsheet: Download R Cheatsheets Locally.}
 \description{
 A simple package to grab cheatsheets and save them to your local computer.
 }

@@ -2,4 +2,5 @@
 
 export("%>%")
 export(get_all_cheatsheets)
+export(list_all_cheatsheets)
 importFrom(magrittr,"%>%")

@@ -1,4 +1,4 @@
-#' cheatsheet: Download All or Some of the R Cheatsheets.
+#' cheatsheet: Download R Cheatsheets Locally.
 #'
 #' A simple package to grab cheatsheets and save them to your local computer.
 #'
