@@ -23,6 +23,7 @@ list_all_cheatsheets <- function() {
   }else{
 
   TEMP_PATH <- path.expand(create_cache_location(create = FALSE))
+  }
   pdf_names <- dir(TEMP_PATH)
   pdf_names <- gsub(pattern = ".pdf", replacement = "", pdf_names)
 
@@ -31,5 +32,5 @@ list_all_cheatsheets <- function() {
 
 
 
-  }
+
 }
