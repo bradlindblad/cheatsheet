@@ -3,7 +3,7 @@
 
 # cheatsheet
 
-<img src='https://raw.githubusercontent.com/bradlindblad/cheatsheet/main/logo.png' align="right" height="200" />
+<img src='https://raw.githubusercontent.com/bradlindblad/cheatsheet/main/fig/logo.png' align="right" height="200" />
 
 <!-- badges: start -->
 
