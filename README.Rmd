@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R build status](https://github.com/bradlindblad/cheatsheet/workflows/R-CMD-check/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions)
-[![Codecov test coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/cheatsheet)](https://CRAN.R-project.org/package=cheatsheet)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
