@@ -26,11 +26,12 @@ cache_exists <- function() {
 }
 
 
-clone_cheats_to_cache <- function() {
+clone_cheats_to_cache <- function(TEMP_PATH) {
 
-  TEMP_PATH <- path.expand(create_cache_location())
+  # TEMP_PATH <- path.expand(create_cache_location())
 
-  url <- "https://github.com/bradlindblad/foo"
+  # url <- "https://github.com/bradlindblad/foo"
+  url <- "https://github.com/rstudio/cheatsheets"
 
   cli::cli_alert_success("Grabbing cheatsheets from {crayon::blue('https://rstudio.com/resources/cheatsheets/')}")
   Sys.sleep(3)

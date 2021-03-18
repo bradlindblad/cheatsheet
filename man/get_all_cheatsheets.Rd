@@ -4,10 +4,12 @@
 \alias{get_all_cheatsheets}
 \title{get_all_cheatsheets}
 \usage{
-get_all_cheatsheets(local_path = ".")
+get_all_cheatsheets(local_path = ".", tidyverse_only = FALSE)
 }
 \arguments{
 \item{local_path}{local file path to save the cheatsheets to - string}
+
+\item{tidyverse_only}{only download tidyverse cheatsheets? - logical}
 }
 \description{
 Download all current cheat sheets as pdf files into your chosen directory

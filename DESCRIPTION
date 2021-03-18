@@ -25,4 +25,5 @@ Imports:
     crayon,
     cli,
     purrr,
-    rappdirs
+    rappdirs,
+    stringr
