@@ -9,7 +9,7 @@ get_translation(local_path = ".", language = NA)
 \arguments{
 \item{local_path}{local file path to save the cheatsheets to - string}
 
-\item{language}{pick a language from the list obtained by running cheatsheet::list_languages()}
+\item{language}{pick a language from the list obtained by running \code{cheatsheet::list_languages()}}
 }
 \description{
 Download all current cheat sheets as pdf files into your chosen directory

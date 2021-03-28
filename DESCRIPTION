@@ -1,13 +1,12 @@
 Package: cheatsheet
-Title: What the Package Does (One Line, Title Case)
+Title: Download R Cheatsheets Locally
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Brad",
+           family = "Lindblad",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "me@bradlindblad.com")
+Description: A simple package to grab cheatsheets and save them to your local computer.
 License: MIT + file LICENSE
 Suggests: 
     testthat,
@@ -16,8 +15,8 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-URL: https://github.com/bradlindblad/cheatsheetR
-BugReports: https://github.com/bradlindblad/cheatsheetR/issues
+URL: https://bradlindblad.github.io/cheatsheet/
+BugReports: https://github.com/bradlindblad/cheatsheet/issues
 Imports: 
     magrittr,
     git2r,
@@ -26,4 +25,5 @@ Imports:
     cli,
     purrr,
     rappdirs,
-    stringr
+    stringr,
+    rstudioapi

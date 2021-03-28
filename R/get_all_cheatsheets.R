@@ -11,11 +11,12 @@
 #'
 #' @examples
 #' \dontrun{
-#' get_all_cheatsheets("~/user/Cheatsheets")
+#' get_all_cheatsheets("~/user/Cheatsheets", tidyverse_only = FALSE)
 #' }
 #'
 get_all_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE) {
-
+  tidyverse_only = T
+  local_path = "/home/brad/Desktop/waa"
   TEMP_PATH <- paste0(local_path, "/git")
 
   clone_cheats_to_cache(TEMP_PATH)
@@ -23,9 +24,17 @@ get_all_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE) {
   pdfs <- list.files(path = TEMP_PATH, pattern = "*.pdf", full.names = TRUE)
 
   if(tidyverse_only == TRUE) {
-    tidy <- c("data-visualization-2.1.pdf", "data-import.pdf", "data-transformation.pdf", "factors.pdf", "lubridate.pdf", "purrr.pdf", "tidyeval.pdf", "strings.pdf")
+    tidy <- c(paste0(TEMP_PATH, "/", "data-visualization-2.1.pdf"),
+              paste0(TEMP_PATH, "/", "data-import.pdf"),
+              paste0(TEMP_PATH, "/", "data-transformation.pdf"),
+              paste0(TEMP_PATH, "/", "factors.pdf"),
+              paste0(TEMP_PATH, "/", "lubridate.pdf"),
+              paste0(TEMP_PATH, "/", "purrr.pdf"),
+              paste0(TEMP_PATH, "/", "tidyeval.pdf"),
+              paste0(TEMP_PATH, "/", "strings.pdf")
+    )
 
-    pdfs <- subset(pdfs, stringr::str_detect(pdfs, tidy))
+    pdfs <- pdfs[pdfs %in% tidy]
 
   }
 

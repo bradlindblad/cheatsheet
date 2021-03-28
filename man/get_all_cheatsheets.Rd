@@ -19,7 +19,7 @@ Downloads all pdf cheatsheets currently available as pdf from https://rstudio.co
 }
 \examples{
 \dontrun{
-get_all_cheatsheets("~/user/Cheatsheets")
+get_all_cheatsheets("~/user/Cheatsheets", tidyverse_only = FALSE)
 }
 
 }

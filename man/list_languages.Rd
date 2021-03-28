@@ -7,7 +7,7 @@
 list_languages()
 }
 \description{
-View all the languages that can be pulled using cheatsheet::get_translation()
+View all the languages that can be pulled using \code{cheatsheet::get_translation()}
 }
 \examples{
 \dontrun{

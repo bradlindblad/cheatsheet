@@ -3,7 +3,6 @@
 #' @description
 #' List all cheatsheets currently available from https://rstudio.com/resources/cheatsheets/
 #'
-#'
 #' @examples
 #' \dontrun{
 #' list_all_cheatsheets()
