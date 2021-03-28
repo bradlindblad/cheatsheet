@@ -15,8 +15,8 @@
 #' }
 #'
 get_all_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE) {
-  tidyverse_only = T
-  local_path = "/home/brad/Desktop/waa"
+
+
   TEMP_PATH <- paste0(local_path, "/git")
 
   clone_cheats_to_cache(TEMP_PATH)
