@@ -1,3 +1,5 @@
+* Win-builder needed me to fix a NOTE with LazyData
+
 ## Test environments
 
 * GitHub Actions (ubuntu-16.04): 3.3, 3.4, 3.5, oldrel, release, devel

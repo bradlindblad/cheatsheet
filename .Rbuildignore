@@ -9,3 +9,4 @@
 ^docs$
 ^pkgdown$
 ^fig
+^CRAN-RELEASE$
