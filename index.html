@@ -79,7 +79,7 @@
 <!-- badges: start -->
 
 <!-- badges: end -->
-<p>{cheatsheet} is a simple R package that downloads <a href="https://www.rstudio.com/resources/cheatsheets/">helpful R cheatsheets</a> from the repository maintained by RStudio.</p>
+<p>{cheatsheet} is a simple R package that downloads <a href="https://www.rstudio.com/resources/cheatsheets/">helpful R cheatsheets</a> from the repository maintained by RStudio. You could easily just clone the repo these are <a href="https://github.com/rstudio/cheatsheets">hosted at</a> and filter them how you wish; this package is just a shortcut and more useful for people who aren’t familiar with git.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -97,10 +97,79 @@
 
 <span class="co"># Get all cheatsheets and place in a folder on your desktop</span>
 <span class="fu">cheatsheet</span><span class="fu">::</span><span class="fu"><a href="reference/get_all_cheatsheets.html">get_all_cheatsheets</a></span><span class="op">(</span>local_path <span class="op">=</span> <span class="st">"cheats"</span>, tidyverse_only <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span>
-<span class="fu">fs</span><span class="fu">::</span><span class="fu"><a href="http://fs.r-lib.org/reference/dir_ls.html">dir_ls</a></span><span class="op">(</span><span class="st">"cheats"</span><span class="op">)</span></code></pre></div>
+<span class="fu">fs</span><span class="fu">::</span><span class="fu"><a href="http://fs.r-lib.org/reference/dir_ls.html">dir_ls</a></span><span class="op">(</span><span class="st">"cheats"</span><span class="op">)</span>
+
+<span class="co"># 0-template.pdf</span>
+<span class="co"># Machine Learning Modelling in R.pdf</span>
+<span class="co"># SamplingStrata.pdf</span>
+<span class="co"># base-r.pdf</span>
+<span class="co"># bayesplot.pdf</span>
+<span class="co"># bcea.pdf</span>
+<span class="co"># caret.pdf</span>
+<span class="co"># cartography.pdf</span>
+<span class="co"># collapse.pdf</span>
+<span class="co"># data-import.pdf</span>
+<span class="co"># data-transformation.pdf</span>
+<span class="co"># data-visualization-2.1.pdf</span>
+<span class="co"># datatable.pdf</span>
+<span class="co"># declaredesign.pdf</span>
+<span class="co"># distr6.pdf</span>
+<span class="co"># estimatr.pdf</span>
+<span class="co"># eurostat.pdf</span>
+<span class="co"># factors.pdf</span>
+<span class="co"># gganimate.pdf</span>
+<span class="co"># golem.pdf</span>
+<span class="co"># gwasrapidd.pdf</span>
+<span class="co"># h2o.pdf</span>
+<span class="co"># how-big-is-your-graph.pdf</span>
+<span class="co"># imputeTS.pdf</span>
+<span class="co"># jfa.pdf</span>
+<span class="co"># keras.pdf</span>
+<span class="co"># labelled.pdf</span>
+<span class="co"># leaflet.pdf</span>
+<span class="co"># lubridate.pdf</span>
+<span class="co"># mlr.pdf</span>
+<span class="co"># mosaic.pdf</span>
+<span class="co"># nardl.pdf</span>
+<span class="co"># nimble.pdf</span>
+<span class="co"># oSCR.pdf</span>
+<span class="co"># overviewR.pdf</span>
+<span class="co"># package-development.pdf</span>
+<span class="co"># packagefinder.pdf</span>
+<span class="co"># parallel_computation.pdf</span>
+<span class="co"># plumber.pdf</span>
+<span class="co"># purrr.pdf</span>
+<span class="co"># quanteda.pdf</span>
+<span class="co"># randomizr.pdf</span>
+<span class="co"># regex.pdf</span>
+<span class="co"># reticulate.pdf</span>
+<span class="co"># rmarkdown-2.0.pdf</span>
+<span class="co"># rphylopic.pdf</span>
+<span class="co"># rstudio-ide.pdf</span>
+<span class="co"># sf.pdf</span>
+<span class="co"># shiny.pdf</span>
+<span class="co"># shiny_Spanish_final.pdf</span>
+<span class="co"># sjmisc.pdf</span>
+<span class="co"># sparklyr.pdf</span>
+<span class="co"># stata2r.pdf</span>
+<span class="co"># strings.pdf</span>
+<span class="co"># survminer.pdf</span>
+<span class="co"># syntax.pdf</span>
+<span class="co"># teachR.pdf</span>
+<span class="co"># tidyeval.pdf</span>
+<span class="co"># time-series.pdf</span>
+<span class="co"># tsbox.pdf</span>
+<span class="co"># vegan.pdf</span>
+<span class="co"># vtree.pdf</span>
+<span class="co"># xplain.pdf</span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># Just grab core tidyverse cheatsheets</span>
-<span class="fu">cheatsheet</span><span class="fu">::</span><span class="fu"><a href="reference/get_all_cheatsheets.html">get_all_cheatsheets</a></span><span class="op">(</span>local_path <span class="op">=</span> <span class="st">"~/Desktop/cheats"</span>, tidyverse_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></code></pre></div>
+<span class="fu">cheatsheet</span><span class="fu">::</span><span class="fu"><a href="reference/get_all_cheatsheets.html">get_all_cheatsheets</a></span><span class="op">(</span>local_path <span class="op">=</span> <span class="st">"cheats"</span>, tidyverse_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
+
+<span class="co"># data-import.pdf            data-transformation.pdf    </span>
+<span class="co"># data-visualization-2.1.pdf factors.pdf                </span>
+<span class="co"># lubridate.pdf              purrr.pdf                  </span>
+<span class="co"># strings.pdf                tidyeval.pdf </span></code></pre></div>
 </div>
 <div id="foreign-language-support" class="section level2">
 <h2 class="hasAnchor">
@@ -130,7 +199,17 @@
 <span class="co">#&gt;   get_translation('~/Desktop/french', 'french')</span></code></pre></div>
 <p>Then, pass the language you want to this function:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">cheatsheet</span><span class="fu">::</span><span class="fu"><a href="reference/get_translation.html">get_translation</a></span><span class="op">(</span>local_path <span class="op">=</span> <span class="st">"cheatsheet"</span>, language <span class="op">=</span> <span class="st">"german"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">cheatsheet</span><span class="fu">::</span><span class="fu"><a href="reference/get_translation.html">get_translation</a></span><span class="op">(</span>local_path <span class="op">=</span> <span class="st">"cheats"</span>, language <span class="op">=</span> <span class="st">"german"</span><span class="op">)</span>
+
+<span class="co"># base-r_de.pdf</span>
+<span class="co"># data-transformation-cheatsheet_de.pdf</span>
+<span class="co"># data-wrangling-german.pdf</span>
+<span class="co"># devtools-german.pdf</span>
+<span class="co"># ggplot2-german.pdf</span>
+<span class="co"># rmarkdown-cheatsheet-2.0-german.pdf</span>
+<span class="co"># shiny-german.pdf</span>
+<span class="co"># sparklyr-cheatsheet_de.pdf</span></code></pre></div>
+<p>If anyone has another known and established stash of cheatsheets that would be helpful for this package, please submit an <a href="https://github.com/bradlindblad/cheatsheet/issues">issue</a> or pull request.</p>
 </div>
 </div>
   </div>
