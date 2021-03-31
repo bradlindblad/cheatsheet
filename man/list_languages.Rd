@@ -6,6 +6,9 @@
 \usage{
 list_languages()
 }
+\value{
+No return value; called for side effects.
+}
 \description{
 View all the languages that can be pulled using \code{cheatsheet::get_translation()}
 }

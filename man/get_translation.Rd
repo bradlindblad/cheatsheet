@@ -11,6 +11,9 @@ get_translation(local_path = ".", language = NA)
 
 \item{language}{pick a language from the list obtained by running \code{cheatsheet::list_languages()}}
 }
+\value{
+No return value; called for side effects.
+}
 \description{
 Download all current cheat sheets as pdf files into your chosen directory
 }

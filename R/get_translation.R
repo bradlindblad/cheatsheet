@@ -7,6 +7,9 @@
 #' @param language pick a language from the list obtained by running `cheatsheet::list_languages()`
 #' @export
 #'
+#' @returns
+#' No return value; called for side effects.
+#'
 #' @examples
 #' \dontrun{
 #' get_translation("~/user/Cheatsheets", language = "german")

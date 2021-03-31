@@ -5,6 +5,10 @@
 #'
 #' @export
 #'
+#'
+#' @returns
+#' No return value; called for side effects.
+#'
 #' @examples
 #' \dontrun{
 #' list_languages()

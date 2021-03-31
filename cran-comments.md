@@ -1,4 +1,6 @@
-* Win-builder needed me to fix a NOTE with LazyData
+Per Gregor Seyor email, fixed 2 issues:
+* Added \value to .Rd files
+* Added RStudio as "cph" to the DESCRIPTION file, as RStudio holds copyright on materials this package downloads
 
 ## Test environments
 
@@ -9,6 +11,6 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 note
 
 * This is a new release.

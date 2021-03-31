@@ -11,6 +11,9 @@ get_all_cheatsheets(local_path = ".", tidyverse_only = FALSE)
 
 \item{tidyverse_only}{only download tidyverse cheatsheets? - logical}
 }
+\value{
+No return value; called for side effects.
+}
 \description{
 Download all current cheat sheets as pdf files into your chosen directory
 }

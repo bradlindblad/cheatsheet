@@ -2,10 +2,12 @@ Package: cheatsheet
 Title: Download R Cheat Sheets Locally
 Version: 0.1.0
 Authors@R: 
-    person(given = "Brad",
+    c(person(given = "Brad",
            family = "Lindblad",
            role = c("aut", "cre"),
-           email = "me@bradlindblad.com")
+           email = "me@bradlindblad.com"),
+           person(given = "RStudio",
+             role = "cph"))
 Description: A simple package to grab cheat sheets and save them to your local computer.
 License: MIT + file LICENSE
 Suggests: 
