@@ -13,7 +13,7 @@ status](https://github.com/bradlindblad/cheatsheet/workflows/R-CMD-check/badge.s
 coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/cheatsheet)](https://CRAN.R-project.org/package=cheatsheet)
-
+[![pkgdown](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml)
 <!-- badges: end -->
 
 {cheatsheet} is a simple R package that downloads [helpful R
