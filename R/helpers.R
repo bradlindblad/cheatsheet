@@ -26,14 +26,15 @@
 # }
 
 
-clone_cheats_to_cache <- function(TEMP_PATH) {
+clone_cheats_to_cache <- function(TEMP_PATH, url = "https://github.com/rstudio/cheatsheets") {
 
   # TEMP_PATH <- path.expand(create_cache_location())
 
   # url <- "https://github.com/bradlindblad/foo"
-  url <- "https://github.com/rstudio/cheatsheets"
+  # url <- "https://github.com/rstudio/cheatsheets"
+  # url <- "https://github.com/business-science/cheatsheets"
 
-  cli::cli_alert_success("Grabbing cheatsheets from {crayon::blue('https://rstudio.com/resources/cheatsheets/')}")
+  cli::cli_alert_success(paste0("Grabbing cheatsheets from {crayon::blue('",url,"')}"))
   Sys.sleep(3)
 
   cli::cli_alert_info("This may take 30 seconds or more...")
@@ -44,3 +45,6 @@ clone_cheats_to_cache <- function(TEMP_PATH) {
 
 
 }
+
+
+

@@ -2,6 +2,7 @@
 
 export("%>%")
 export(get_all_cheatsheets)
+export(get_cheatsheets)
 export(get_translation)
 export(list_languages)
 importFrom(magrittr,"%>%")

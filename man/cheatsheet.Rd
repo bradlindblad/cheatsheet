@@ -19,4 +19,9 @@ Useful links:
 \author{
 \strong{Maintainer}: Brad Lindblad \email{me@bradlindblad.com}
 
+Other contributors:
+\itemize{
+  \item RStudio [copyright holder]
+}
+
 }

@@ -4,12 +4,21 @@
 \alias{get_all_cheatsheets}
 \title{get_all_cheatsheets}
 \usage{
-get_all_cheatsheets(local_path = ".", tidyverse_only = FALSE)
+get_all_cheatsheets(
+  local_path = ".",
+  providers = "All",
+  tidyverse_only = FALSE,
+  documented = FALSE
+)
 }
 \arguments{
 \item{local_path}{local file path to save the cheatsheets to - string}
 
+\item{providers}{select particular provider? Defaults to "All" - logical}
+
 \item{tidyverse_only}{only download tidyverse cheatsheets? - logical}
+
+\item{documented}{provide a table of cheatsheets and providers? - logical}
 }
 \value{
 No return value; called for side effects.
@@ -18,7 +27,7 @@ No return value; called for side effects.
 Download all current cheat sheets as pdf files into your chosen directory
 }
 \note{
-Downloads all pdf cheatsheets currently available as pdf from https://rstudio.com/resources/cheatsheets/
+Downloads all pdf cheatsheets available as pdf from providers in url dataset
 }
 \examples{
 \dontrun{
