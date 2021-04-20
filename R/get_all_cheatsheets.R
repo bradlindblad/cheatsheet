@@ -12,7 +12,7 @@
 #'  Downloads all pdf cheatsheets available as pdf from providers in url dataset
 #'
 #' @returns
-#' No return value; called for side effects.
+#' Conditionally returns a table of cheatsheets; called for side effects.
 #'
 #' @examples
 #' \dontrun{
@@ -32,20 +32,21 @@ get_all_cheatsheets <- function(local_path = ".", providers = "All",tidyverse_on
     links <- cheatsheet::urls
   }
   else {
-    links <- cheatsheet::urls[cheatsheet::urls$providers %in% providers,]
+    links <- cheatsheet::urls[cheatsheet::urls$Provider %in% providers,]
   }
 
+  cheatsheet_list <- data.frame()
 
   for(link in 1:nrow(links)){
-    x<-get_cheatsheets(local_path = local_path, tidyverse_only = tidyverse_only, provider = links$Provider[link], url = links$url[link], documented = documented)
+    cheatsheet <- get_cheatsheets(local_path = local_path, tidyverse_only = tidyverse_only, provider = links$Provider[link], url = links$url[link], documented = documented)
+
+    if(documented == TRUE) {
+      cheatsheet_list <- rbind(cheatsheet_list, cheatsheet)
+      assign(x = "cheatsheet_list", value = cheatsheet_list, envir = .GlobalEnv)
+    }
   }
 
-  if(documented == TRUE) {
-    cheatsheets <- data.frame(Provider = rep(provider,length(pdfs)),
-                              url = rep(url,length(pdfs)),
-                              cheatsheet = pdfs)
-    return(cheatsheets)
-  }
+
 }
 
 

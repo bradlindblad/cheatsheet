@@ -1,16 +1,20 @@
-#' get_cheatsheets
+#' cheatsheet_providers
 #'
 #' @description
-#' List all cheatsheet repositories
+#' List all cheatsheet providers
+#'
+#' @export
+#' @note
+#'  List all cheatsheet providers
 #'
 #' @returns
-#' Returns a list of providers in the cheatsheet url dataset
+#' No return value; called for side effects.
 #'
 #' @examples
 #' \dontrun{
-#' cheatsheet_providers()
+#' cheatsheet_providers())
 #' }
 #'
 cheatsheet_providers <- function() {
-  print(urls$Provider)
+  print(cheatsheet::urls$Provider)
 }

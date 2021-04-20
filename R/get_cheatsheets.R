@@ -6,12 +6,13 @@
 #' @param local_path local file path to save the cheatsheets to - string
 #' @param tidyverse_only only download tidyverse cheatsheets? - logical
 #' @param provider select particular provider? Defaults to "All" - logical
+#' @param url the url from which the cheatsheets are retrieved - string
 #' @param documented provide a table of cheatsheets and providers? - logical
 #' @note
 #'  Downloads all pdf cheatsheets available as pdf from a url
 #'
 #' @returns
-#' Conditionally returns a table of cheatsheets; called for side effects.
+#' Conditionally returns a table to Global of cheatsheets; called for side effects.
 #'
 #' @examples
 #' \dontrun{
@@ -26,6 +27,8 @@ get_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE, provider, 
   clone_cheats_to_cache(TEMP_PATH, url = url)
 
   pdfs <- list.files(path = TEMP_PATH, pattern = "*.pdf", full.names = TRUE)
+
+  pdfs_short <- list.files(path = TEMP_PATH, pattern = "*.pdf", full.names = FALSE)
 
   if(tidyverse_only == TRUE) {
     tidy <- c(paste0(TEMP_PATH, "/", "data-visualization-2.1.pdf"),
@@ -50,9 +53,9 @@ get_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE, provider, 
   cli::cli_alert_success("Added cheatsheets to {crayon::blue(local_path)}")
 
   if(documented == TRUE) {
-    cheatsheets <- data.frame(Provider = rep(provider,length(pdfs)),
-                              url = rep(url,length(pdfs)),
-                              cheatsheet = pdfs)
+    cheatsheets <- data.frame(Provider = rep(provider,length(pdfs_short)),
+                              url = rep(url,length(pdfs_short)),
+                              cheatsheet = pdfs_short)
     return(cheatsheets)
   }
 }

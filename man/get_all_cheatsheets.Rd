@@ -21,7 +21,7 @@ get_all_cheatsheets(
 \item{documented}{provide a table of cheatsheets and providers? - logical}
 }
 \value{
-No return value; called for side effects.
+Conditionally returns a table of cheatsheets; called for side effects.
 }
 \description{
 Download all current cheat sheets as pdf files into your chosen directory

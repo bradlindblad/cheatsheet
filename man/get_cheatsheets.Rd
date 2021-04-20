@@ -19,6 +19,8 @@ get_cheatsheets(
 
 \item{provider}{select particular provider? Defaults to "All" - logical}
 
+\item{url}{the url from which the cheatsheets are retrieved - string}
+
 \item{documented}{provide a table of cheatsheets and providers? - logical}
 }
 \value{
