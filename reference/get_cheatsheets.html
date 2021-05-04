@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>get_all_cheatsheets — get_all_cheatsheets • cheatsheet</title>
+<title>get_cheatsheets — get_cheatsheets • cheatsheet</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,7 @@
 
 
 
-<meta property="og:title" content="get_all_cheatsheets — get_all_cheatsheets" />
+<meta property="og:title" content="get_cheatsheets — get_cheatsheets" />
 <meta property="og:description" content="Download all current cheat sheets as pdf files into your chosen directory" />
 
 
@@ -118,19 +118,20 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>get_all_cheatsheets</h1>
-    <small class="dont-index">Source: <a href='https://github.com/bradlindblad/cheatsheet/blob/master/R/get_all_cheatsheets.R'><code>R/get_all_cheatsheets.R</code></a></small>
-    <div class="hidden name"><code>get_all_cheatsheets.Rd</code></div>
+    <h1>get_cheatsheets</h1>
+    <small class="dont-index">Source: <a href='https://github.com/bradlindblad/cheatsheet/blob/master/R/get_cheatsheets.R'><code>R/get_cheatsheets.R</code></a></small>
+    <div class="hidden name"><code>get_cheatsheets.Rd</code></div>
     </div>
 
     <div class="ref-description">
     <p>Download all current cheat sheets as pdf files into your chosen directory</p>
     </div>
 
-    <pre class="usage"><span class='fu'>get_all_cheatsheets</span><span class='op'>(</span>
+    <pre class="usage"><span class='fu'>get_cheatsheets</span><span class='op'>(</span>
   local_path <span class='op'>=</span> <span class='st'>"."</span>,
-  providers <span class='op'>=</span> <span class='st'>"All"</span>,
   tidyverse_only <span class='op'>=</span> <span class='cn'>FALSE</span>,
+  <span class='va'>provider</span>,
+  <span class='va'>url</span>,
   documented <span class='op'>=</span> <span class='cn'>FALSE</span>
 <span class='op'>)</span></pre>
 
@@ -142,12 +143,16 @@
       <td><p>local file path to save the cheatsheets to - string</p></td>
     </tr>
     <tr>
-      <th>providers</th>
+      <th>tidyverse_only</th>
+      <td><p>only download tidyverse cheatsheets? - logical</p></td>
+    </tr>
+    <tr>
+      <th>provider</th>
       <td><p>select particular provider? Defaults to "All" - logical</p></td>
     </tr>
     <tr>
-      <th>tidyverse_only</th>
-      <td><p>only download tidyverse cheatsheets? - logical</p></td>
+      <th>url</th>
+      <td><p>the url from which the cheatsheets are retrieved - string</p></td>
     </tr>
     <tr>
       <th>documented</th>
@@ -160,11 +165,11 @@
     <p>Conditionally returns a table of cheatsheets; called for side effects.</p>
     <h2 class="hasAnchor" id="note"><a class="anchor" href="#note"></a>Note</h2>
 
-    <p>Downloads all pdf cheatsheets available as pdf from providers in url dataset</p>
+    <p>Downloads all pdf cheatsheets available as pdf from a url</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
-<span class='fu'>get_all_cheatsheets</span><span class='op'>(</span><span class='st'>"~/user/Cheatsheets"</span>, tidyverse_only <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
+<span class='fu'>get_cheatsheets</span><span class='op'>(</span><span class='st'>"~/user/Cheatsheets"</span>, tidyverse_only <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
 <span class='op'>}</span>
 
 </div></pre>
