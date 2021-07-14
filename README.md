@@ -11,9 +11,11 @@
 status](https://github.com/bradlindblad/cheatsheet/workflows/R-CMD-check/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg)](https://codecov.io/gh/bradlindblad/cheatsheet?branch=main)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/cheatsheet)](https://cran.r-project.org/package=cheatsheet)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/cheatsheet)](https://CRAN.R-project.org/package=cheatsheet)
-[![pkgdown](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml)
+
 <!-- badges: end -->
 
 {cheatsheet} is a simple R package that downloads [helpful R
@@ -129,24 +131,24 @@ available with this command:
 cheatsheet::list_languages()
 #> 
 #> ── Languages available for get_translation() ───────────────────────────────────
-#> ● chinese
-#> ● dutch
-#> ● french
-#> ● german
-#> ● greek
-#> ● italian
-#> ● japanese
-#> ● korean
-#> ● portuguese
-#> ● russian
-#> ● spanish
-#> ● turkish
-#> ● ukranian
-#> ● uzbek
-#> ● vietnamese
+#> • chinese
+#> • dutch
+#> • french
+#> • german
+#> • greek
+#> • italian
+#> • japanese
+#> • korean
+#> • portuguese
+#> • russian
+#> • spanish
+#> • turkish
+#> • ukranian
+#> • uzbek
+#> • vietnamese
 #> 
-#>   ── Pass the language you choose above to get_translation(), like:
-#>   get_translation('~/Desktop/french', 'french')
+#> ── Pass the language you choose above to get_translation(), like:
+#> get_translation('~/Desktop/french', 'french')
 ```
 
 Then, pass the language you want to this function:
