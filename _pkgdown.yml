@@ -1,0 +1,8 @@
+url: https://bradlindblad.github.io/cheatsheet/
+template:
+  bootstrap: 5
+  bootswatch: lux
+  theme: nord
+  bslib:
+    pkgdown-nav-height: 100px
+

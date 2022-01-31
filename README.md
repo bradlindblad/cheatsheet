@@ -1,9 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cheatsheet
-
-<img src='https://github.com/bradlindblad/cheatsheet/blob/main/fig/logo.png?raw=true' align="right" height="200" />
+# cheatsheet <img src='https://github.com/bradlindblad/cheatsheet/blob/main/fig/logo.png?raw=true' align="right" width="120" />
 
 <!-- badges: start -->
 
