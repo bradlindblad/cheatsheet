@@ -26,6 +26,7 @@ get_all_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE) {
 
   pdfs <- list.files(path = TEMP_PATH, pattern = "*.pdf", full.names = TRUE)
 
+
   if(tidyverse_only == TRUE) {
     tidy <- c(paste0(TEMP_PATH, "/", "data-visualization-2.1.pdf"),
               paste0(TEMP_PATH, "/", "data-import.pdf"),
