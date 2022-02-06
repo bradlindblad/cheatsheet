@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 2.0.2
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-02-01T02:29Z
+last_built: 2022-02-06T03:14Z
 urls:
   reference: https://bradlindblad.github.io/cheatsheet/reference
   article: https://bradlindblad.github.io/cheatsheet/articles
