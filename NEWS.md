@@ -1,5 +1,5 @@
 # cheatsheet (development version)
 
-# cheatsheet 0.1.0
+# cheatsheet 0.1.1
 
-* Initial release
+* Moving from RStudio to Posit

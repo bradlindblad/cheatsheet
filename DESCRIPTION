@@ -6,7 +6,7 @@ Authors@R:
            family = "Lindblad",
            role = c("aut", "cre"),
            email = "me@bradlindblad.com"),
-           person(given = "RStudio",
+           person(given = "Posit",
              role = "cph"))
 Description: A simple package to grab cheat sheets and save them to your local computer.
 License: MIT + file LICENSE
@@ -26,6 +26,4 @@ Imports:
     crayon,
     cli,
     purrr,
-    rappdirs,
-    stringr,
     rstudioapi
