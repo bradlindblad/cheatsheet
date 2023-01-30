@@ -7,8 +7,7 @@
 
 [![R-CMD-check](https://github.com/bradlindblad/cheatsheet/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions/workflows/check-standard.yaml)
 [![pkgdown](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/bradlindblad/cheatsheet/actions/workflows/pkgdown.yaml)
-[![Codecov test
-coverage](https://app.codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bradlindblad/cheatsheet?branch=main)
+[![codecov](https://codecov.io/gh/bradlindblad/cheatsheet/branch/main/graph/badge.svg?token=ww0rPGYgt4)](https://codecov.io/gh/bradlindblad/cheatsheet)
 [![metacran
 downloads](https://cranlogs.r-pkg.org/badges/grand-total/cheatsheet)](https://cran.r-project.org/package=cheatsheet)
 [![CRAN
