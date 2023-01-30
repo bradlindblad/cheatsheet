@@ -1,6 +1,4 @@
-Per Gregor Seyor email, fixed 2 issues:
-* Added \value to .Rd files
-* Added RStudio as "cph" to the DESCRIPTION file, as RStudio holds copyright on materials this package downloads
+Replaced 'Rstudio' URLs with 'Posit' URLs.
 
 ## Test environments
 
@@ -13,4 +11,4 @@ Per Gregor Seyor email, fixed 2 issues:
 
 0 errors | 0 warnings | 0 note
 
-* This is a new release.
+
