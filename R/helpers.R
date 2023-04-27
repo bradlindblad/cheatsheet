@@ -33,7 +33,7 @@ clone_cheats_to_cache <- function(TEMP_PATH) {
   # url <- "https://github.com/bradlindblad/foo"
   url <- "https://github.com/rstudio/cheatsheets"
 
-  cli::cli_alert_success("Grabbing cheatsheets from {crayon::blue('https://rstudio.com/resources/cheatsheets/')}")
+  cli::cli_alert_success("Grabbing cheatsheets from {crayon::blue('https://posit.co/resources/cheatsheets')}")
   Sys.sleep(3)
 
   cli::cli_alert_info("This may take 30 seconds or more...")

@@ -1,4 +1,4 @@
-Replaced 'Rstudio' URLs with 'Posit' URLs.
+Fixed deprecated URL in README.
 
 ## Test environments
 
