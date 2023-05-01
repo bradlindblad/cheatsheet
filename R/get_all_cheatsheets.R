@@ -7,7 +7,7 @@
 #' @param tidyverse_only only download tidyverse cheatsheets? - logical
 #' @export
 #' @note
-#'  Downloads all pdf cheatsheets currently available as pdf from https://rstudio.com/resources/cheatsheets/
+#'  Downloads all pdf cheatsheets currently available as pdf from https://posit.co/resources/cheatsheets/
 #'
 #' @returns
 #' No return value; called for side effects.

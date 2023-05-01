@@ -1,4 +1,4 @@
-# cheatsheet (development version)
+# cheatsheet 0.1.2
 
 # cheatsheet 0.1.1
 
