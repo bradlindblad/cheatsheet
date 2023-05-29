@@ -42,9 +42,7 @@ get_all_cheatsheets <- function(local_path = ".", tidyverse_only = FALSE) {
 
   }
 
-  suppressMessages(
-    purrr::map(pdfs, fs::file_copy, local_path)
-  )
+  purrr::walk(pdfs, fs::file_copy, local_path)
 
   fs::dir_delete(TEMP_PATH)
   cli::cli_alert_success("Added cheatsheets to {crayon::blue(local_path)}")
